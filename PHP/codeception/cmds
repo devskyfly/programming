@@ -1,0 +1,2 @@
+Selenium start
+java -jar -Dwebdriver.chrome.driver=/usr/bin/chromedriver /usr/bin/selenium-server/selenium-server-standalone-3.141.59.jar
