@@ -9,6 +9,7 @@ class A
     public function doSelf()
     {
         self::work();
+        //$this->work();
     }
     
     public function work()
