@@ -7,9 +7,9 @@ var connectHandler= function connected(){
 	eventEmmitter.emit('data_received');
 }
 
-eventEmmitter.on('connection',connectHandler);
+eventEmmitter.on('connection', connectHandler);
 
-eventEmmitter.on('data_received',function(){
+eventEmmitter.on('data_received', function(){
 	console.log('Data received succesfully.');
 });
 
