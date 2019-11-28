@@ -2,7 +2,7 @@ var events = require('events');
 
 var eventEmmitter = new events.EventEmitter();
 
-var connectHandler= function connected(){
+var connectHandler = function connected(){
 	console.log('Connection succesful.');
 	eventEmmitter.emit('data_received');
 }
