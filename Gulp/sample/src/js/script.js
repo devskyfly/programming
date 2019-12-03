@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const data = require('../lib/data');
+const data = require('../lib/mocks/data');
 
 
 _.forIn(data, function(key, value){

@@ -4,9 +4,14 @@ gpug = require('gulp-pug'),
 gRename = require('gulp-rename'),
 gConcat = require('gulp-concat'),
 gClean = require('gulp-clean'),
+gTypescript = require('gulp-typescript'),
+tsify = require('tsify'),
+source = require('vinyl-source-stream'),
 gBrowserify = require('gulp-browserify'),
+lbrowserify = require('browserify'),
 browserSync = require('browser-sync'),
 browserReload = browserSync.reload;
+const tsProject = gTypescript.createProject("tsconfig.json");
 
 path = {
     src: "src",
@@ -30,15 +35,43 @@ function server(cb){
    gulp.watch(path.src+"/**/*.pug", function(cb){
         pug(cb);
    });
-
    cb();
 };
 
-
-
 function build(cb)
 {
-    series(html, css, pug, browserify)();
+    series(html, css, pug, /*browserify,*/ /*typescript,*/ typescriptBrowser)();
+    cb();
+}
+
+function typescriptNode(cb)
+{
+    gulp.src(path.src+"/**/script.ts").pipe(tsProject()).pipe(gulp.dest(path.public));
+    if (browserSync.active) {
+        browserReload();
+    }
+    cb();
+    
+}
+
+function typescriptBrowser(cb)
+{
+    lbrowserify(
+        {
+            basedir: '.', 
+            debug: true, 
+            entries: [path.src+'/ts/script.ts'],
+            cache: {},
+            packageCache: {}
+        })
+        .plugin(tsify)
+        .bundle()
+        .pipe(source("script.js"))
+        .pipe(gulp.dest(path.public+"/ts/"));
+
+    if (browserSync.active) {
+        browserReload();
+    }
     cb();
 }
 
@@ -80,6 +113,7 @@ function css(cb)
 
 exports.default = series( server, html, build);
 
+exports.clean = clean;
 exports.html = html;
 
 
