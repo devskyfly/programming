@@ -41,7 +41,7 @@ function server(cb){
         pug(cb);
    });
    gulp.watch(path.src+"/**/*.sass", function(cb){
-        pug(cb);
+        sass(cb);
    });
    cb();
 };
@@ -136,7 +136,7 @@ function css(cb)
     cb();
 }
 
-exports.default = series(server, build, clean);
+exports.default = series(clean, build, server);
 
 exports.sass = sass;
 exports.build = build;
