@@ -1,0 +1,63 @@
+%padding
+    padding: 10px
+
+%backgrcolor
+    background-color: white
+    
+html,
+body,
+div
+    border: 0px
+    margin: 0px
+    padding: 0px
+
+.wrapper
+    overflow-y: auto
+    border: 1px solid balck
+    background-color: lightblue
+    width: 99%
+    height: 99%
+
+.relative
+    @extend %padding 
+    @extend %backgrcolor
+    position: relative
+    margin-top: 1px
+    border: 2px solid green
+    width: 90%
+    margin-left: auto
+    margin-right: auto
+
+.relative:nth-of-type(odd)
+    @extend %padding
+    position: relative
+    border: 2px solid green
+    width: 90%
+    left: 100px
+    margin-left: auto
+    margin-right: auto
+
+.fixed
+    @extend %padding
+    position: fixed
+    border: 2px solid blue
+    width: 100%
+    
+.static
+    @extend %padding
+    position: static
+    border: 2px solid blue
+    width: 90%
+    margin-left: auto
+    margin-right: auto
+
+.absolute
+    z-index: 201
+    position: absolute
+    border: 2px solid red
+    padding: 30px
+    width: 100%
+
+.height
+    height: 1200px
+    border: 2px solid red
