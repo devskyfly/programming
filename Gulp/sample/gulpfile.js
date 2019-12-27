@@ -5,12 +5,15 @@ gRename = require('gulp-rename'),
 gConcat = require('gulp-concat'),
 gClean = require('gulp-clean'),
 gTypescript = require('gulp-typescript'),
+gSass = require('gulp-sass'), 
 tsify = require('tsify'),
 source = require('vinyl-source-stream'),
 gBrowserify = require('gulp-browserify'),
 lbrowserify = require('browserify'),
 browserSync = require('browser-sync'),
 browserReload = browserSync.reload;
+gSass.compiler = require('node-sass');
+
 const tsProject = gTypescript.createProject("tsconfig.json");
 
 path = {
@@ -19,7 +22,9 @@ path = {
 };
 
 function clean(cb) {
-    gulp.src(path.public+"/**/*").pipe(gClean());
+    return gulp
+    .src(path.public+"/*", {read: false, allowEmpty: true})
+    .pipe(gClean());
     cb();
 }
 
@@ -35,12 +40,15 @@ function server(cb){
    gulp.watch(path.src+"/**/*.pug", function(cb){
         pug(cb);
    });
+   gulp.watch(path.src+"/**/*.sass", function(cb){
+        pug(cb);
+   });
    cb();
 };
 
 function build(cb)
 {
-    series(html, css, pug, /*browserify,*/ /*typescript,*/ typescriptBrowser)();
+    series(html, css, pug, sass, /*browserify,*/ /*typescript,*/ typescriptBrowser)();
     cb();
 }
 
@@ -77,16 +85,31 @@ function typescriptBrowser(cb)
 
 function browserify(cb)
 {
-    gulp.src(path.src+"/**/script.js").pipe(gBrowserify()).pipe(gulp.dest(path.public));
+    gulp.src(path.src+"/**/script.js")
+    .pipe(gBrowserify())
+    .pipe(gulp.dest(path.public));
     if (browserSync.active) {
         browserReload();
     }
     cb();
 }
 
+function sass(cb)
+{
+    gulp.src(path.src+"/**/*.sass")
+    .pipe(gSass().on('error', gSass.logError))
+    .pipe(gulp.dest(path.public));
+    if (browserSync.active) {
+        browserReload();
+    }
+   cb();
+}
+
 function pug(cb)
 {
-    gulp.src(path.src+"/**/*.pug").pipe(gpug({})).pipe(gulp.dest(path.public));
+    gulp.src(path.src+"/**/*.pug")
+    .pipe(gpug({}))
+    .pipe(gulp.dest(path.public));
     if (browserSync.active) {
         browserReload();
     }
@@ -95,7 +118,8 @@ function pug(cb)
 
 function html(cb)
 {
-    gulp.src(path.src+"/**/*.html").pipe(gulp.dest(path.public));
+    gulp.src(path.src+"/**/*.html")
+    .pipe(gulp.dest(path.public));
     if (browserSync.active) {
         browserReload();
     }
@@ -104,15 +128,18 @@ function html(cb)
 
 function css(cb)
 {
-    gulp.src(path.src+"/**/*.css").pipe(gulp.dest(path.public));
+    gulp.src(path.src+"/**/*.css")
+    .pipe(gulp.dest(path.public));
     if (browserSync.active) {
         browserReload();
     }
     cb();
 }
 
-exports.default = series( server, html, build);
+exports.default = series(server, build, clean);
 
+exports.sass = sass;
+exports.build = build;
 exports.clean = clean;
 exports.html = html;
 
