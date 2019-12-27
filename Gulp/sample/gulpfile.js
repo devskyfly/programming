@@ -22,8 +22,7 @@ path = {
 };
 
 function clean(cb) {
-    return gulp
-    .src(path.public+"/*", {read: false, allowEmpty: true})
+    gulp.src(path.public+"/*", {read: false, allowEmpty: true})
     .pipe(gClean());
     cb();
 }
@@ -48,7 +47,14 @@ function server(cb){
 
 function build(cb)
 {
-    series(html, css, pug, sass, /*browserify,*/ /*typescript,*/ typescriptBrowser)();
+    series(html, css, pug, sass, bootstrap, /*browserify,*/ /*typescript,*/ /*typescriptBrowser*/)();
+    cb();
+}
+
+function bootstrap(cb)
+{
+    gulp.src("./node_modules/bootstrap/dist/css/bootstrap.css").pipe(gulp.dest(path.public));
+    gulp.src("./node_modules/bootstrap/dist/js/bootstrap.js").pipe(gulp.dest(path.public));
     cb();
 }
 
