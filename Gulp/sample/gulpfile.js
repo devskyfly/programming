@@ -23,24 +23,26 @@ path = {
 
 function clean(cb) {
     return gulp.src(path.public+"/*", {read: false, allowEmpty: true})
-    .pipe(gClean());
-    //cb();
+    .pipe(gClean())
+    .on('end',function(){
+        cb();
+    });
 }
 
 function server(cb){
    browserSync.init({server: path.public});
    
    gulp.watch(path.src+"/**/*.html",function(cb){
-        html(cb);
+     html(cb);
    });
    gulp.watch(path.src+"/**/*.css", function(cb){
-        css(cb);
+     css(cb);
    });
    gulp.watch(path.src+"/**/*.pug", function(cb){
-        pug(cb);
+     pug(cb);
    });
    gulp.watch(path.src+"/**/*.sass", function(cb){
-        sass(cb);
+      sass(cb);
    });
    
 };
@@ -54,23 +56,28 @@ function build(cb)
 function bootstrap(cb)
 {
     return gulp.src("./node_modules/bootstrap/dist/css/bootstrap.*", {allowEmpty: true})
-    .pipe(gulp.dest(path.public));
-    //cb();
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 function typescriptNode(cb)
 {
-    return gulp.src(path.src+"/**/script.ts", {allowEmpty: true}).pipe(tsProject()).pipe(gulp.dest(path.public));
-    /*if (browserSync.active) {
-        browserReload();
-    }
-    cb();*/
-    
+    return gulp.src(path.src+"/**/script.ts", {allowEmpty: true}).pipe(tsProject())
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 function typescriptBrowser(cb)
 {
-    return lbrowserify(
+    lbrowserify(
         {
             basedir: '.', 
             debug: true, 
@@ -81,66 +88,71 @@ function typescriptBrowser(cb)
         .plugin(tsify)
         .bundle()
         .pipe(source("script.js"))
-        .pipe(gulp.dest(path.public+"/ts/"));
-
-    /*if (browserSync.active) {
-        browserReload();
-    }*/
-    //cb();
+        .pipe(gulp.dest(path.public+"/ts/")).on('end',function(){
+            if (browserSync.active) {
+                browserReload();
+            }
+            cb();
+        });
 }
 
 function browserify(cb)
 {
 
-    return gulp.src(path.src+"/**/script.js", {allowEmpty: true})
+     gulp.src(path.src+"/**/script.js", {allowEmpty: true})
     .pipe(gBrowserify())
-    .pipe(gulp.dest(path.public));
-    /*if (browserSync.active) {
-        browserReload();
-    }
-   cb();*/
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 function sass(cb)
 {
-    return gulp.src(path.src+"/**/*.sass", {allowEmpty: true})
+     gulp.src(path.src+"/**/*.sass", {allowEmpty: true})
     .pipe(gSass().on('error', gSass.logError))
-    .pipe(gulp.dest(path.public));
-    /*if (browserSync.active) {
-        browserReload();
-    }
-   cb();*/
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 function pug(cb)
 {
-    return gulp.src(path.src+"/**/*.pug", {allowEmpty: true})
+    gulp.src(path.src+"/**/*.pug", {allowEmpty: true})
     .pipe(gpug({}))
-    .pipe(gulp.dest(path.public));
-    /*if (browserSync.active) {
-        browserReload();
-    }
-    cb();*/
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 function html(cb)
 {
-    return gulp.src(path.src+"/**/*.html", {allowEmpty: true})
-    .pipe(gulp.dest(path.public));
-    /*if (browserSync.active) {
-        browserReload();
-    }
-    cb();*/
+    gulp.src(path.src+"/**/*.html", {allowEmpty: true})
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 function css(cb)
 {
-    return gulp.src(path.src+"/**/*.css", {allowEmpty: true})
-    .pipe(gulp.dest(path.public));
-    /*if (browserSync.active) {
-        browserReload();
-    }
-    cb();*/
+    gulp.src(path.src+"/**/*.css", {allowEmpty: true})
+    .pipe(gulp.dest(path.public)).on('end',function(){
+        if (browserSync.active) {
+            browserReload();
+        }
+        cb();
+    });
 }
 
 exports.default = series(clean, build, server);
