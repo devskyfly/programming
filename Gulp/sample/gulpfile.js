@@ -22,9 +22,9 @@ path = {
 };
 
 function clean(cb) {
-    gulp.src(path.public+"/*", {read: false, allowEmpty: true})
+    return gulp.src(path.public+"/*", {read: false, allowEmpty: true})
     .pipe(gClean());
-    cb();
+    //cb();
 }
 
 function server(cb){
@@ -42,7 +42,7 @@ function server(cb){
    gulp.watch(path.src+"/**/*.sass", function(cb){
         sass(cb);
    });
-   cb();
+   
 };
 
 function build(cb)
@@ -53,24 +53,24 @@ function build(cb)
 
 function bootstrap(cb)
 {
-    gulp.src("./node_modules/bootstrap/dist/css/bootstrap.css").pipe(gulp.dest(path.public));
-    gulp.src("./node_modules/bootstrap/dist/js/bootstrap.js").pipe(gulp.dest(path.public));
-    cb();
+    return gulp.src("./node_modules/bootstrap/dist/css/bootstrap.*", {allowEmpty: true})
+    .pipe(gulp.dest(path.public));
+    //cb();
 }
 
 function typescriptNode(cb)
 {
-    gulp.src(path.src+"/**/script.ts").pipe(tsProject()).pipe(gulp.dest(path.public));
-    if (browserSync.active) {
+    return gulp.src(path.src+"/**/script.ts", {allowEmpty: true}).pipe(tsProject()).pipe(gulp.dest(path.public));
+    /*if (browserSync.active) {
         browserReload();
     }
-    cb();
+    cb();*/
     
 }
 
 function typescriptBrowser(cb)
 {
-    lbrowserify(
+    return lbrowserify(
         {
             basedir: '.', 
             debug: true, 
@@ -83,63 +83,64 @@ function typescriptBrowser(cb)
         .pipe(source("script.js"))
         .pipe(gulp.dest(path.public+"/ts/"));
 
-    if (browserSync.active) {
+    /*if (browserSync.active) {
         browserReload();
-    }
-    cb();
+    }*/
+    //cb();
 }
 
 function browserify(cb)
 {
-    gulp.src(path.src+"/**/script.js")
+
+    return gulp.src(path.src+"/**/script.js", {allowEmpty: true})
     .pipe(gBrowserify())
     .pipe(gulp.dest(path.public));
-    if (browserSync.active) {
+    /*if (browserSync.active) {
         browserReload();
     }
-    cb();
+   cb();*/
 }
 
 function sass(cb)
 {
-    gulp.src(path.src+"/**/*.sass")
+    return gulp.src(path.src+"/**/*.sass", {allowEmpty: true})
     .pipe(gSass().on('error', gSass.logError))
     .pipe(gulp.dest(path.public));
-    if (browserSync.active) {
+    /*if (browserSync.active) {
         browserReload();
     }
-   cb();
+   cb();*/
 }
 
 function pug(cb)
 {
-    gulp.src(path.src+"/**/*.pug")
+    return gulp.src(path.src+"/**/*.pug", {allowEmpty: true})
     .pipe(gpug({}))
     .pipe(gulp.dest(path.public));
-    if (browserSync.active) {
+    /*if (browserSync.active) {
         browserReload();
     }
-    cb();
+    cb();*/
 }
 
 function html(cb)
 {
-    gulp.src(path.src+"/**/*.html")
+    return gulp.src(path.src+"/**/*.html", {allowEmpty: true})
     .pipe(gulp.dest(path.public));
-    if (browserSync.active) {
+    /*if (browserSync.active) {
         browserReload();
     }
-    cb();
+    cb();*/
 }
 
 function css(cb)
 {
-    gulp.src(path.src+"/**/*.css")
+    return gulp.src(path.src+"/**/*.css", {allowEmpty: true})
     .pipe(gulp.dest(path.public));
-    if (browserSync.active) {
+    /*if (browserSync.active) {
         browserReload();
     }
-    cb();
+    cb();*/
 }
 
 exports.default = series(clean, build, server);
@@ -148,29 +149,3 @@ exports.sass = sass;
 exports.build = build;
 exports.clean = clean;
 exports.html = html;
-
-
-//gulp.task('default', ['server', 'build', 'clean']);
-
-//gulp.task('server', function(){
-//   browserSync.init({server: path.public});
-//   g.watch(path.src+"/**/*.html",['html']);
-//   g.watch(path.src+"/**/*.css",['css']);
-//});
-
-//gulp.task('build', ['clean' ,'html', 'css']);
-
-//gulp.task('clean',function(){
-//    g.src(path.public+"/**").pipe(gClean());
-//});
-
-//gulp.task('html',function(){
-//    g.src(path.src+"/**/*.html").pipe(dist(path.public));
-//    browserReload();
-//});
-
-//gulp.task('css',function(){
-//    g.src(path.src+"/**/*.css").pipe(dist(path.public));
-//    browserReload();
-//});
-
