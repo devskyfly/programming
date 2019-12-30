@@ -1,0 +1,1529 @@
+1577706789271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1ArENj"
+1577706791171	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577706791172	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577706791189	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577706791190	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:15900): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15900): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577706795001	Marionette	INFO	Listening on port 37709
+1577706795088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+[Parent 15900, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577706840671	Marionette	INFO	Stopped listening on port 37709
+1577706847669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0k1wzB"
+1577706848049	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577706848050	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577706848053	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577706848053	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:16136): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16136): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577706849610	Marionette	INFO	Listening on port 43541
+1577706849711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 16136, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 16136, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577706898931	Marionette	INFO	Stopped listening on port 43541
+1577707160579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5QH7xC"
+1577707161050	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707161051	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577707161054	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707161055	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:16452): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16452): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577707163209	Marionette	INFO	Listening on port 41085
+1577707163345	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: https://iitrust.ru/index.min.js?v=69, line 27: TypeError: window.google is undefined
+[Parent 16452, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577707179355	Marionette	INFO	Stopped listening on port 41085
+1577707190817	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoZSr59"
+1577707191198	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707191198	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577707191200	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707191200	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:16708): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16708): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577707192826	Marionette	INFO	Listening on port 45961
+1577707192842	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16708, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577707201520	Marionette	INFO	Stopped listening on port 45961
+1577707471827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileta0CKA"
+1577707472283	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707472283	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577707472285	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707472286	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:16971): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16971): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577707474694	Marionette	INFO	Listening on port 44255
+1577707474752	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1577707757477	Marionette	INFO	Stopped listening on port 44255
+1577707767874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek2IM6N"
+1577707768499	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707768501	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577707768503	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707768503	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:17484): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17484): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577707770068	Marionette	INFO	Listening on port 38629
+1577707770106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1577707849400	Marionette	INFO	Stopped listening on port 38629
+1577707850922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUb5XGZ"
+1577707851306	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707851307	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577707851310	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707851310	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:17758): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17758): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577707852974	Marionette	INFO	Listening on port 34627
+1577707853071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+[Parent 17758, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577707887623	Marionette	INFO	Stopped listening on port 34627
+1577707910368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXY4zxY"
+1577707910757	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707910757	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577707910759	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577707910760	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:17941): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17941): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577707912261	Marionette	INFO	Listening on port 39993
+1577707912289	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1577708017675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2A91v7"
+1577708018120	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708018120	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577708018126	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708018126	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:18202): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18202): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577708019906	Marionette	INFO	Listening on port 37175
+1577708020022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577708042910	Marionette	INFO	Stopped listening on port 37175
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1577708358750	Marionette	INFO	Stopped listening on port 39993
+1577708514042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegrkfZc"
+1577708514881	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708514882	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577708514898	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708514899	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:18591): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18591): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577708517156	Marionette	INFO	Listening on port 33611
+1577708517166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+1577708551838	Marionette	INFO	Stopped listening on port 33611
+1577708563441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT88o10"
+1577708563775	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708563776	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577708563780	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708563780	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:18818): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18818): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577708565069	Marionette	INFO	Listening on port 34667
+1577708565154	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1577708615009	Marionette	INFO	Stopped listening on port 34667
+1577708725349	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1PG6rA"
+1577708725726	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708725727	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577708725730	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708725730	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:19159): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19159): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577708727161	Marionette	INFO	Listening on port 36455
+1577708727170	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577708727176	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1577708785449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile71HXzO"
+1577708785878	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708785878	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577708785881	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708785881	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:19485): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19485): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577708787552	Marionette	INFO	Listening on port 42909
+1577708787582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577708787588	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+openModalWindow@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:350:5
+openPrompt@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:558:9
+nsIPrompt_promptUsernameAndPassword@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:749:9
+promptAuth@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:848:18
+promptAuth@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:100:16
+promptAuth@jar:file:///usr/lib/firefox/omni.ja!/components/nsLoginManagerPrompter.js:599:12
+run@jar:file:///usr/lib/firefox/omni.ja!/components/nsLoginManagerPrompter.js:121:18
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1577708960878	Marionette	INFO	Stopped listening on port 42909
+[Parent 19159, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577708966386	Marionette	INFO	Stopped listening on port 36455
+1577708969518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenDWqbE"
+1577708970668	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708970669	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577708970711	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577708970712	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:19972): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19972): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577708973105	Marionette	INFO	Listening on port 43925
+1577708973148	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577708982311	Marionette	INFO	Stopped listening on port 43925
+1577709382260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYxzuUO"
+1577709383107	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709383108	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709383110	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709383111	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:20445): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:20445): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709386167	Marionette	INFO	Listening on port 44953
+1577709386180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709386188	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+MESA-LOADER: could not get parent device
+MESA-LOADER: could not get parent device
+MESA-LOADER: could not get parent device
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1577709402252	Marionette	INFO	Stopped listening on port 44953
+1577709424510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0S88uw"
+1577709424889	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709424889	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709424893	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709424893	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:20725): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:20725): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709426360	Marionette	INFO	Listening on port 37759
+1577709426457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709426466	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 20725, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 20725, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577709466511	Marionette	INFO	Stopped listening on port 37759
+1577709468314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek0xv4r"
+1577709468717	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709468718	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709468721	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709468722	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:20987): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:20987): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709470287	Marionette	INFO	Listening on port 35743
+1577709470332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709470344	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 20987, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 20987, Gecko_IOThread] WARNING: pipe error (107): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577709628304	Marionette	INFO	Stopped listening on port 35743
+1577709632676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRlIRl8"
+1577709633068	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709633068	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709633071	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709633071	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:21477): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21477): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709634578	Marionette	INFO	Listening on port 43833
+1577709634590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709634600	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 21477, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577709707666	Marionette	INFO	Stopped listening on port 43833
+1577709710288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1E9zOc"
+1577709710677	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709710678	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709710681	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709710682	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:21792): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21792): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709712032	Marionette	INFO	Listening on port 38077
+1577709712132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709712156	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+1577709721646	Marionette	INFO	Stopped listening on port 38077
+1577709724470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRyh5jV"
+1577709724845	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709724846	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709724849	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709724850	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:21976): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21976): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709726296	Marionette	INFO	Listening on port 37677
+1577709726398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709726411	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+[Parent 21976, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577709731115	Marionette	INFO	Stopped listening on port 37677
+1577709732611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles4mhxO"
+1577709732993	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709732994	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577709732997	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577709732998	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:22180): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22180): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577709734424	Marionette	INFO	Listening on port 44231
+1577709734523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577709734534	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+openModalWindow@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:350:5
+openPrompt@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:558:9
+nsIPrompt_promptUsernameAndPassword@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:749:9
+promptAuth@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:848:18
+promptAuth@jar:file:///usr/lib/firefox/omni.ja!/components/nsPrompter.js:100:16
+promptAuth@jar:file:///usr/lib/firefox/omni.ja!/components/nsLoginManagerPrompter.js:599:12
+run@jar:file:///usr/lib/firefox/omni.ja!/components/nsLoginManagerPrompter.js:121:18
+
+[Parent 22180, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 22180, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577709828091	Marionette	INFO	Stopped listening on port 44231
+1577710923261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAFwAVl"
+1577710925332	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577710925335	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577710925454	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577710925455	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:22677): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22677): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577710930724	Marionette	INFO	Listening on port 44699
+1577710930806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577710930815	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+1577710957161	Marionette	INFO	Stopped listening on port 44699
+1577710959568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFPzKjj"
+1577710959959	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577710959960	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577710959962	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577710959963	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:22899): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22899): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577710961384	Marionette	INFO	Listening on port 42453
+1577710961527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577710961537	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+[Parent 22899, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577710978630	Marionette	INFO	Stopped listening on port 42453
+1577710981115	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelh0vA3"
+1577710981773	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577710981774	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577710981832	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577710981834	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:23109): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23109): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577710983717	Marionette	INFO	Listening on port 42325
+1577710983745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577710983752	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 23109, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577711053514	Marionette	INFO	Stopped listening on port 42325
+1577711056072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewsofac"
+1577711056587	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711056589	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577711056591	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711056592	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:23377): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23377): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577711058406	Marionette	INFO	Listening on port 46151
+1577711058440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577711058448	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+[Parent 23377, Gecko_IOThread] WARNING: pipe error (71): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 23377, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577711137961	Marionette	INFO	Stopped listening on port 46151
+1577711232883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecWJSgl"
+1577711233854	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711233856	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577711233869	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711233870	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:23758): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23758): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577711236571	Marionette	INFO	Listening on port 34643
+1577711236629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577711236637	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+[Parent 23758, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577711268235	Marionette	INFO	Stopped listening on port 34643
+1577711270124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexx4CBJ"
+1577711270512	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711270513	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577711270516	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711270516	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:24069): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24069): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577711271890	Marionette	INFO	Listening on port 41035
+1577711271947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577711271957	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+[Parent 24069, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 24069, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577711277228	Marionette	INFO	Stopped listening on port 41035
+1577711278787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS4q3Ey"
+1577711279166	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711279167	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577711279169	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711279169	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:24237): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24237): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577711280828	Marionette	INFO	Listening on port 38447
+1577711280956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577711280968	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+1577711329846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0O9wOh"
+1577711330283	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711330283	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577711330285	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577711330285	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:24469): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24469): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577711332286	Marionette	INFO	Listening on port 37743
+1577711332389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577711332397	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 24469, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 24469, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577711719362	Marionette	INFO	Stopped listening on port 37743
+[Parent 24237, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 24237, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577711918344	Marionette	INFO	Stopped listening on port 38447
+1577712032907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1E7b47"
+1577712033721	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577712033722	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577712033754	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577712033755	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:25279): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25279): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577712036314	Marionette	INFO	Listening on port 36439
+1577712036411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577712036419	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:291:11\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1178:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1721:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "Could not get the list of font families" "Protocol error (unknownError): node is null"
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Child 25356, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 25356, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1577712117467	Marionette	INFO	Stopped listening on port 36439
+1577712320694	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelbX01s"
+1577712321161	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-ZA@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577712321161	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1577712321165	addons.xpi-utils	WARN	addMetadata: Add-on langpack-en-GB@firefox.mozilla.org is invalid: Error: Install manifest specifies unknown type: null(resource://gre/modules/addons/XPIInstall.jsm:632:11) JS Stack trace: loadManifestFromRDF@XPIInstall.jsm:632:11
+loadFromRDF@XPIInstall.jsm:787:23
+awaitPromise@XPIProvider.jsm:190:3
+syncLoadManifestFromFile@XPIInstall.jsm:870:10
+addMetadata@XPIDatabase.jsm:2395:21
+processFileChanges@XPIDatabase.jsm:2736:21
+checkForChanges@XPIProvider.jsm:2556:34
+startup@XPIProvider.jsm:2134:25
+callProvider@AddonManager.jsm:206:12
+_startProvider@AddonManager.jsm:654:5
+startup@AddonManager.jsm:807:9
+startup@AddonManager.jsm:2802:5
+observe@addonManager.js:66:9
+1577712321166	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+
+(firefox:25617): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25617): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2600: TypeError: addon is null
+1577712323933	Marionette	INFO	Listening on port 36225
+1577712324019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577712324028	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"127.0.0.1:3128","httpProxy":"127.0.0.1:3128","sslProxy":"127.0.0.1:3128"}
+[Parent 25617, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 25617, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1577712337334	Marionette	INFO	Stopped listening on port 36225
