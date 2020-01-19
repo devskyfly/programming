@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="stream.css")
+        title Stream
+    body(style="height:100%")
+        header
+            div
+                div Header content
+        main
+            div.relative
+                div(style="height:20px")
+                div(class="relative border-color_green") Normal stream 1 div
+                div(class="relative border-color_green") Normal stream 2 div
+                div(class="relative border-color_green") Normal stream 3 div
+                div.fix Fixed div
+                div(style="height:20px")
+                div(class="absolute border-color_yellow" style="top:0px; left:0px") Absolute top left div
+                div(class="absolute border-color_yellow" style="top:0px; right:0px") Absolute top right div
+                div(class="absolute border-color_yellow" style="bottom:0px; left:0px") Absolute bottom left div
+                div(class="absolute border-color_yellow" style="bottom:0px; right:0px") Absolute bottom right div
+                div(style="height:500px")
+        footer
+            div
+                div Footer content
