@@ -112,7 +112,7 @@ function browserify(cb)
 function sass(cb)
 {
      gulp.src(path.src+"/**/*.sass", {allowEmpty: true})
-    .pipe(gSass().on('error', gSass.logError))
+    .pipe(gSass())//.on('error', gSass.logError)
     .pipe(gulp.dest(path.public)).on('end',function(){
         if (browserSync.active) {
             browserReload();
